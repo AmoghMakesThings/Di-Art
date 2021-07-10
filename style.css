@@ -1,0 +1,230 @@
+body{
+    text-align: center;
+}
+#images{
+    margin-top: 40px;
+    margin-left: 600px;
+}
+#mainthing{
+    margin-top: -69px;
+    margin-left: -600px;
+    
+}
+text{
+    font-size: 20px;
+
+}
+h1{
+    font-size: 37px;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+.links:hover{
+    animation: 5s infinite button;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#text{
+    max-width: 420px;
+    margin: auto;
+    background: linear-gradient(#2e00fd75,#ff00007e);
+    margin-right: 650px;
+    border: 3px dashed black;
+    margin-top: 20px;
+    border-radius: 5%;
+    height: 300px;
+    background-color: #2eecb0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='0.11' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+}
+#text2{
+    max-width: 420px;
+    margin: auto;
+    background: linear-gradient(#ff00007e,#2e00fd75);
+    margin-left: 650px;
+    border: 3px dashed black;
+    margin-top: -298px;
+    border-radius: 5%;
+    height: 300px;
+    background-color: #2eecb0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='0.11' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+}
+
+
+
+
+#pixel_art_button{
+    background-color: #28b5b5;
+    transition: width 0.5s;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10%;
+    border: 3px black solid;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: crosshair;
+    margin-left: 220px;
+}
+#vector_art_button{
+    background-color: #4b778d;
+    transition: width 0.5s;
+    text-align: center;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+ 
+    border-radius: 10%;
+    border: 3px black solid;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: crosshair;
+}
+#twod_button{
+    background-color: #8fd9a8;
+    transition: width 0.5s;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10%;
+    border: 3px black solid;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: crosshair;
+}
+#threed_button{
+    background-color: #d2e69c;
+    transition: width 0.5s;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10%;
+    border: 3px black solid;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: crosshair;
+}
+
+#pixel_art_button:hover{
+    background-color: #239b9b;
+    width: 300px;
+    text-align: center;
+}
+#vector_art_button:hover{
+    background-color: #304c5a;
+    width: 300px;
+}
+#twod_button:hover{
+    background-color: #6a9e7b;
+    width: 300px;
+}
+#threed_button:hover{
+    background-color: #a0af77;
+    width: 300px;
+}
+
+
+h2{
+    font-size: 25px;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+font-family: 'Staatliches', cursive;
+}
+#gallery{
+   
+    height: 200px;
+}
+
+#img_1_gal{
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+.button_gal{
+    background-color: black;
+    width: 5px black;
+    margin-left: 5px;
+}
+
+
+#img_3_gal{
+    width: 220px;
+    height: 200px;
+    transition: 0.5s;
+}
+#img_4_gal{
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+#img_5_gal{
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+::selection {
+    color: rgb(59, 59, 59);
+    background-color: rgb(247, 247, 247);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+#learn_more_button{
+    transition-duration: 0.4s;
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(193, 228, 230);
+    transition: 0.5s;
+  }
+  
+  #learn_more_button:hover {
+    background-color: #4c90af;
+    color: white;
+    width: 300px;
+  }
+body{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  #about_text{
+      color: black;
+  }
+#myCarousel{
+    max-width: 50%;
+    margin-top: 50px;
+    
+}
+#myCarousel2{
+    max-width: 50%;
+    margin-top: 50px;
+}
+#learn_b{
+    font-size: 20px;
+}
+h4{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.pic_thing{
+    size: 700px;
+}
+
+
+
+
+
+
+ 
